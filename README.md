@@ -4,16 +4,17 @@ OtoFrame is an advanced software tool that leverages artificial intelligence (AI
 
 ## Demo
 
+![demo](https://github.com/Jobanpreet01/OtoFrame/assets/115151470/79bcdb54-d1e1-4c4a-a8ae-db7d0cb9e2e4)
 
 
 **The Process of OtoFrame Involves:**
-1. Input: Video.
-2. Re-encoding: Increase the number of I frames (Keyframes).
-3. Keyframe Extraction: Extracts keyframes using FFmpeg.
-4. Pre-processing: Removes duplicate and black frames.
-5. Classification: Applies a binary CNN model for classifying images as "relevant" or "irrelevant".
-6. Filtering: Removes "irrelevant" frames.
-7. Output: A folder containing frames showing the tympanic membrane of the patient.
+1. **Input:** Video.
+2. **Re-encoding:** Increase the number of I frames (Keyframes).
+3. **Keyframe Extraction:** Extracts keyframes using FFmpeg.
+4. **Pre-processing:** Removes duplicate and black frames.
+5. **Classification:** Applies a binary CNN model for classifying images as "relevant" or "irrelevant".
+6. **Filtering:** Removes "irrelevant" frames.
+7. **Output:** A folder containing frames showing the tympanic membrane of the patient.
 
 
 ## Installation Requirements
@@ -73,4 +74,4 @@ OtoFrame is an advanced software tool that leverages artificial intelligence (AI
 ## Contact
 
 For any issues or inquiries please contact:
-*email: 210142187@aston.ac.uk.
+* email: 210142187@aston.ac.uk.
